@@ -10,6 +10,9 @@ a:visited {color:black;}
 a{
   text-decoration: none;
 }
+button{
+  color:#120078 ;
+}
 /*navigation*/
 .litbgcolor{
   background-color: #f7f7f7;
@@ -114,6 +117,55 @@ h6{
   padding: 1rem;
 }
 
+/*Experience*/
+#experience{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  width:50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.imgrialignr{
+  width: 30%;
+  float: left;
+  height: 10rem;
+}
+/*training*/
+.train{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  width:50%;
+  padding-right: auto;
+  padding-left: auto;
+}
+.stylehr{
+  border-style:none;
+  border-width: 5px;
+  width:10%;
+  border-top-style: dotted;
+  border-color: #120078;
+}
+.fileside{
+  display: inline;
+}
+
+/*achievement*/
+#Achivement{
+  width:50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*Award*/
+#aword{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+.wid{
+  width: 50%;
+}
 /* footer section */
 #footer{
   padding: 1% 15%;
