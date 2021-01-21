@@ -6,7 +6,10 @@ h2{
   color: #120078;
   font-weight: bold;
 }
-
+a:visited {color:black;}
+a{
+  text-decoration: none;
+}
 /*navigation*/
 .litbgcolor{
   background-color: #f7f7f7;
@@ -58,8 +61,8 @@ h2{
 
 /*-- Education with bootstrap card--*/
 #education{
-  padding-left: 10rem;
-  padding-right: 10rem;
+  padding-left: 7%;
+  padding-right: 7%;
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
@@ -100,13 +103,20 @@ h6{
   width: 32px;
 }
 .carousel-item{
-  padding: 7% 15%;
+  padding: 2% 15%;
 }
 
+.box {
+  margin: 50px auto;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+  padding: 1rem;
+}
 
 /* footer section */
 #footer{
-  padding: 7% 15%;
+  padding: 1% 15%;
   text-align: center;
 }
 
