@@ -1,120 +1,108 @@
 body{
-  font-family: "Montserrat";
-}
-
-.altbgcolor{
-  background-color: #4f81c7;
-  color: #fff;
-}
-.altlightbg{
-  background-color: #E4F9F5;
-}
-
-.titlegif{
-  height: 3rem;
-  weight: 3rem;
-}
-
-.mainheading{
-  font-size: 2rem;
-}
-
-#topcontainer{
-  padding-top: 1rem;
-  background-color: #E4F9F5;
-}
-.muskanhead{
-  color: #66BFBF;
-  font-weight: normal;
-  font-size: 1.5rem;
-  font-family: 'Montserrat', sans-serif;
-}
-.top-cloud{
-  position: absolute;
-  right: 300px;
-  top:50px;
-}
-.bottom-cloud{
-  position: absolute;
-  left:300px;
-  bottom:300px;
-}
-
-/*about-section*/
-/* feature-section */
-#features{
-  padding: 7% 7%;
-}
-
-.feature-box{
+  font-family: "Montserrat", sans-serif;
   text-align: center;
-  padding-right: 30px;
-  padding-left: 30px;
-}
-.frow{
-    margin-left: 0px;
-    margin-right: 0px;
-}
-h3{
-  font-family: "Montserrat-Bold";
-}
-p{
-  color: #8f8f8f;
-}
-.icon{
-  color: #FFB6C1;
-}
-.icon:hover{
-  color: #FF00FF;
-}
-
-/* Testimonials-Section */
-
-#testimonials{
-    text-align: center;
-    color: #fff;
 }
 h2{
-  font-family: "Montserrat-Bold";
-  font-size: 3rem;
-  line-height:1.5;
-}
-.testimonial-image{
-border-radius: 80%;
-width:150px ;
-margin: 20px;
+  color: #120078;
+  font-weight: bold;
 }
 
-.testimonial-image1{
-border-radius: 80%;
-width:90px ;
-margin: 20px;
+/*navigation*/
+.litbgcolor{
+  background-color: #f7f7f7;
+  background-image: url("https://www.transparenttextures.com/patterns/foggy-birds.png");
+}
+.titlegif{
+  height: 3.5rem;
+  width: 3.5rem;
+  border-radius: 100%
 }
 
+.mynav{
+  background-color: #120078;
+  color: #fff;
+  font-weight: bold;
+}
+.container-fluid{
+  padding-right: 0px;
+  padding-left: 0px;
+}
 
-/* Press-Section */
-#press{
+/* attactive section*/
+.muskanhead{
+  color: #120078;
+  font-weight: normal;
+  font-size: 1.25rem;
+  font-family: 'Montserrat', sans-serif;
+}
+#topcontainer{
+  padding-top: 1rem;
+}
+.mount{
+  width: 30rem;
+}
+
+/*About me*/
+.about{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  width: 30rem;
+}
+.iconcolor{
+  color: #120078;
+}
+.details{
+  background-image: url("https://www.transparenttextures.com/patterns/foggy-birds.png");
+  text-align: left;
+}
+
+/*-- Education with bootstrap card--*/
+#education{
+  padding-left: 10rem;
+  padding-right: 10rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.card{
+  text-align: left;
+}
+h6{
+  color: #120078;
   text-align: center;
-  padding-bottom: 3%;
 }
-.press-logo{
-  width: 15%;
-  margin: 20px 20px 50px;
+
+/*Skills*/
+#skills{
+  width:50%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 10%;
+}
+.imgrialign{
+  width: 30%;
+  float: right;
+  height: 30%;
+}
+.textal{
+  text-align: left;
+}
+.vis{
+  visibility: hidden;
+}
+.mystyle{
+  background-image: url("https://media.giphy.com/media/LOQUwai4PUhKT1cmtw/giphy.gif");
+
+}
+/*Projects*/
+.inimgd{
+  height: 32px;
+  width: 32px;
 }
 .carousel-item{
   padding: 7% 15%;
 }
 
-/*  pricing section*/
-
-#pricing{
-  padding: 100px;
-  text-align: center;
-}
-
-.pricing-col{
-  padding: 3% 2%;
-}
 
 /* footer section */
 #footer{
